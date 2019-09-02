@@ -1,0 +1,25 @@
+React - biblioteca para construção de interfaces - qualquer coisa que o úsuario ve
+jsx - permite retornar html direto de um função, e criar componentes html
+React trabalha com programação declarativa!
+
+
+ReactJS - framework front end web, junção do react com react-dom
+
+
+ReactNative - framework nativo mobile, react com bibliotecas de componentes nativos
+
+
+babel.config.js
+Navegador não entende a linguagem do react, "js novo", necessário babel.config
+@babel-preset / @babel-preset-react
+Converte todo o código js para o navegador entender
+Converte todo o código react para o navegador entender
+
+
+webpack.config.js
+Responsável por pegar todo o código javascript que o babel copila e transformar em um único código
+Criação do bundle.js, arquivo que contem todo o código da aplicação
+Ensinar o javascript como trabalhar com css e imagens
+live relad do webpack dev server
+
+

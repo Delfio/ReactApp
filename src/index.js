@@ -1,3 +1,10 @@
-const soma = (a, b) => a + b;
+import React from "react";
+import App from "./App";
 
-alert(soma(1, 4));
+/**
+ *  Função render é responsável por renderizar no html
+ *  <DIV id="app"
+ */
+import { render } from "react-dom";
+
+render(<App />, document.getElementById("app"));

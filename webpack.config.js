@@ -17,6 +17,20 @@ module.exports = {
         use: {
           loader: "babel-loader"
         }
+      },
+      {
+        test: /\.css$/,
+        /**
+         * Style loader - importar arquivos css do arquivo css para o index html
+         * Css loader - importação de outros arquivos dentro do css
+         */
+        use: [{ loader: "style-loader" }, { loader: "css-loader" }]
+      },
+      {
+        test: /.*\.(gif|png|jpe?g)$/i,
+        use: {
+          loader: "file-loader"
+        }
       }
     ]
   }
